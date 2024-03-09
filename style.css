@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url('photo-1564939558297-fc396f18e5c7.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.op{
+    display: flex;
+    justify-content: right;
+    padding-right: 23vw;
+  padding-top: 10vh;
+  background: transparent;
+  font-size: 15rem;
+}    
+.ip{
+    display: flex;
+    justify-content: right;
+    gap: 2rem;
+    padding-right: 13vw;
+  padding-top: 10vh;
+}
+.head{
+    margin-left: 63vw;
+    margin-top: 10vh;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+}
+.btn{
+    background-color: rgb(236, 227, 215);
+    color: black;
+    height: 5vh;
+    width: 8vw;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+.btn:hover{
+    opacity: 0.6;
+    scale: 110%;
+}
